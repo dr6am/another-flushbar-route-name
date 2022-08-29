@@ -449,6 +449,6 @@ FlushbarRoute showFlushbar<T>(
     {required BuildContext context, required Flushbar flushbar}) {
   return FlushbarRoute<T>(
     flushbar: flushbar,
-    settings: const RouteSettings(name: FLUSHBAR_ROUTE_NAME),
+    // settings: const RouteSettings(),
   );
 }
